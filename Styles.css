@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.logo img {
+  width: 15rem;
+}
+
+.nav-btn {
+  padding: 5px;
+}
+
+#carousel {
+  padding-top: 5.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carousel-body img {
+  width: auto;
+  height: 35rem;
+  max-height: 35rem;
+  overflow: hidden;
+}
+
+#body-text {
+  padding-top: 2rem;
+}
+
+.body-title {
+  color: cornflowerblue;
+  font-size: 4rem;
+}
+
+.body-subtext {
+  color: #181818;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.body-title2 {
+  color: chocolate;
+  font-size: 4rem;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery-card {
+  margin-top: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery-card img{
+    width: 23.9rem;
+    max-width: 100%;
+    height: 18rem;
+}
+
+#gallery-text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rebeccapurple;
+}
+
+#gallery-text:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  height: 15rem;
+  margin-bottom: 0;
+  bottom: 0;
+  background-color: #181818;
+}
+
+.footer p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 1rem;
+  color: #cacdd2;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  z-index: 1;
+}
+
+#Thiruvananthapuram{
+    padding-top: 2rem;  
+}
+
+#Alappuzha{
+    padding-top: 2rem; 
+}
+
+#Ernakulam{
+    padding-top: 2rem; 
+}
+
+#Thrissur{
+    padding-top: 2rem; 
+}
+
+#Idukki{
+    padding-top: 2rem; 
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#district img{
+    max-width: 100%;
+    height: 30rem;
+}
+
+#district-text{
+    font-size: 4rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkblue;
+}
+
+#tourist-spot img{
+    max-width: 100%;
+    height:25rem;
+}
+
+#strength-bar{
+  background-color: #dcdcdc;
+  height: 10px;
+  position: relative;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+
+#label-text{
+  font-size: 13px;
+}
+
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+    .footer {
+        height: 13rem;
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .footer {
+        height: 17rem;
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+
